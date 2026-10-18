@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "reviewed": "2026-10-18",
+  "reviewer": "authoring agent; not external peer review",
+  "manuscript_sha256": "04f45aa3755d9b0a13dfae2ea313b90b56cba102951a1993b8860e42fd52ae60",
+  "full_read": true,
+  "argument_review": true,
+  "structure_review": true,
+  "voice_review": true,
+  "final_read": true,
+  "notes": "Read the complete manuscript and final 12-page rendering. Reviewed all 40 ledger entries against the final argument, primary-source locators, explicit assumptions and prospective status. Reverse outline and revisions in editorial.md. Retained four substantive contrast diagnostics and reviewed rhythm warnings in context. No new human data or simulation; scientific validation remains future work."
+}

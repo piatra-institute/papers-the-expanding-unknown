@@ -1,0 +1,229 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: 04f45aa3755d9b0a13dfae2ea313b90b56cba102951a1993b8860e42fd52ae60
+claims:
+  - id: central-possibility
+    kind: interpretation
+    passage: "Learning can sustain inquiry by generating recognizable opportunities for further investigation, without requiring an increase in the desire to pursue each comparable opportunity."
+    rationale: "A conditional possibility, not an observed population effect. The finite-set identity and branching construction establish persistence under fixed pursuit parameters; the prospective study is needed to test the explanation in people."
+  - id: conceptual-scope
+    kind: definition
+    passage: "This is a conceptual account with a conditional model and a prospective experimental design."
+    rationale: "Defines the evidential genre. No participants, fitted model, simulations or original behavioral observations are claimed."
+  - id: investigable-question
+    kind: definition
+    passage: "For the purposes of this account, an *investigable question* is an unresolved contrast that a learner can represent, together with a candidate observation or action that could discriminate between its alternatives under specified resources."
+    rationale: "A task-relative operational definition. Excludes willingness from opportunity membership and distinguishes investigable questions from intelligible but presently inaccessible questions."
+  - id: resource-conditions
+    kind: assumption
+    passage: "The same resources must be specified before and after learning; giving someone a new instrument is a different intervention from teaching them to see another use for an instrument already present."
+    rationale: "Holds physical task resources fixed for the conceptual comparison. The account does not equate a learned new use with an exogenous change in equipment."
+  - id: pursuit-identity
+    kind: interpretation
+    passage: "This is an accounting identity, not a psychological law. It requires no independence between decisions."
+    rationale: "For finite fixed Q_t, N_t is the sum of indicator variables for questions in that starting set. Conditional linearity of expectation gives E[N_t]=sum pi_t(q), even with correlated pursuit decisions. Newly generated questions inside the window are outside this snapshot count."
+  - id: conditional-expansion
+    kind: interpretation
+    passage: "If a newly understood explanation adds questions while the old questions retain their pursuit probabilities, expected activity increases whenever at least one added question has a positive pursuit probability."
+    rationale: "Subtract the old finite sum from the new one. Retained terms cancel; additional probabilities are nonnegative, at least one strictly positive. Resource competition can violate the fixed-old-probability premise."
+  - id: budget-competition
+    kind: interpretation
+    passage: "Opportunity generation might then change the content or sequence of inquiry without increasing its total duration."
+    rationale: "With a fixed time budget, added candidates can displace existing choices. This is a possibility, not a measured effect."
+  - id: effort-dissociation
+    kind: source
+    passage: "Liquin's effort experiments provide a useful empirical warning: the costs of obtaining answers affected search decisions more consistently than self-reported curiosity."
+    evidence:
+      citation_id: "liquin2026"
+      locator: "Abstract; Experiment 2 and 3 Discussion; General Discussion, paragraphs 1–5"
+      verified: true
+      verification_note: "Read primary Europe PMC full-text XML. Search and self-report dissociate; the manuscript retains the high-confidence exception and imperfect introspective access."
+  - id: measurement-convergence
+    kind: source
+    passage: "Jach and colleagues likewise find only partial correspondence between personality measures and task-based information demand [@jach2024]."
+    evidence:
+      citation_id: "jach2024"
+      locator: "Published PDF, p. 1, Abstract and Introduction"
+      verified: true
+      verification_note: "Read the author-hosted published paper's abstract and introduction. Some traits predict task information demand; several central curiosity constructs do not. No cross-task unit of desire is inferred."
+  - id: question-equivalence
+    kind: definition
+    passage: "Alternative procedures for resolving the same contrast would be logged as tests of one question."
+    rationale: "Prevents inflating opportunity counts by paraphrases or alternative procedures for the same unresolved contrast. Coding remains task-relative and requires reliability checks."
+  - id: accessibility-not-creation
+    kind: definition
+    passage: "Opportunity generation is therefore used here for a change in accessible candidates under specified conditions, not as proof that a concept has been created for the first time."
+    rationale: "Restricts the construct to accessible candidates. Elicitation cannot by itself distinguish new composition from retrieval or changes in salience."
+  - id: entropy-scope
+    kind: interpretation
+    passage: "Comparing the entropy of the first description with that of a richer description would confound a change in belief with a change in what is described."
+    rationale: "Entropy is defined over specified variables/distributions. Adding a represented variable changes the object whose uncertainty is measured. No claim that conditioning increases entropy for a fixed variable is made."
+  - id: branching-premises
+    kind: assumption
+    passage: "Failed investigations produce no children in this construction. Questions do not duplicate one another or converge on questions generated elsewhere; time and other resources do not impose an additional cap. The parameters remain constant."
+    rationale: "Idealized independent branching with finite conditional offspring mean k, resolution probability s and pursuit probability p. Convergence, unresolved productive branches, fatigue and finite budgets are expressly excluded and discussed afterward."
+  - id: branching-derivation
+    kind: interpretation
+    passage: "The second equality follows by taking expectations of the first and applying it repeatedly."
+    rationale: "Each investigation resolves with probability s, produces conditional expected k novel candidates, and independently retains each with probability p, hence mean offspring skp. Conditional expectation given Z_n is skp Z_n. Iteration yields E[Z_n]=Z_0(skp)^n for fixed Z_0. This is a symbolic derivation, not an empirical or simulated number."
+  - id: branching-limits
+    kind: interpretation
+    passage: "Growth in expectation does not guarantee that any particular sequence continues."
+    rationale: "Random offspring can yield termination even when the mean exceeds one. The paper claims neither almost-sure persistence nor indefinite physical growth under finite resources."
+  - id: stationary-pursuit
+    kind: interpretation
+    passage: "An expanding sequence of investigations is possible under a stationary pursuit rule when answers generate enough further opportunities."
+    rationale: "Conditional on the branching assumptions and skp>1, expected generation size increases with no change in s or p. Stationary pursuit is not itself a measurement of constant human motivation."
+  - id: gap-predecessor
+    kind: source
+    passage: "He explicitly describes new information as changing a person's conception of what there is to know [@loewenstein1994, pp. 87–90]."
+    evidence:
+      citation_id: "loewenstein1994"
+      locator: "pp. 87–90, especially p. 89, last paragraph, continuing on p. 90"
+      verified: true
+      verification_note: "Read OCR of the scanned author-hosted PDF pages. The original account permits shifting informational reference points; the manuscript explicitly treats it as a predecessor."
+  - id: compression-reward
+    kind: source
+    passage: "Schmidhuber's framework assigns intrinsic reward to improvements in a predictive or compressive model [@schmidhuber2010]."
+    evidence:
+      citation_id: "schmidhuber2010"
+      locator: "Author manuscript, abstract and §I, four architectural components; §II.A"
+      verified: true
+      verification_note: "Read primary author-hosted manuscript. Model improvement supplies reward to a separate action-selecting controller; passive compression is not claimed to create motivation."
+  - id: robot-progress
+    kind: source
+    passage: "Oudeyer, Kaplan and Hafner use learning progress to organize autonomous exploration and sequences of increasing task difficulty in robots [@oudeyer2007]."
+    evidence:
+      citation_id: "oudeyer2007"
+      locator: "Published PDF, p. 265, Abstract and Introduction"
+      verified: true
+      verification_note: "Read author-hosted published text. Intelligent Adaptive Curiosity selects situations by learning progress; reported developmental sequences concern the studied robots."
+  - id: human-progress
+    kind: source
+    passage: "In human experiments, Ten and colleagues find that models combining competence and learning progress account for activity selection better than the alternatives they tested [@ten2021]."
+    evidence:
+      citation_id: "ten2021"
+      locator: "Abstract; Discussion, opening five paragraphs"
+      verified: true
+      verification_note: "Read primary Europe PMC XML. Their model comparisons support learning-progress plus competence sensitivity in free task selection, not unique identification of all human inquiry mechanisms."
+  - id: network-predecessor
+    kind: source
+    passage: "Patankar and colleagues go further in modeling inquiry through growing knowledge networks, including their increasing flexibility [@patankar2023]."
+    evidence:
+      citation_id: "patankar2023"
+      locator: "Published article, Abstract; Introduction, conformational-change theory; Network growth formalism"
+      verified: true
+      verification_note: "Consulted 2023 publisher full text after the 2022 preprint lead. Growth and flexibility are explicit predecessors; the manuscript makes no priority claim over them."
+  - id: question-reuse
+    kind: source
+    passage: "Liquin, Rhodes and Gureckis provide experimental evidence that children and adults reuse prior questions and recombine their components; reuse is sensitive to a question's current informativeness."
+    evidence:
+      citation_id: "liquin2025"
+      locator: "Abstract; Study 1 Discussion; Study 2 Discussion, paragraphs 1–2"
+      verified: true
+      verification_note: "Read published full-text XML, not only the 2024 conference lead. The neighboring manuscript sentence retains the weaker grammar-based recombination result."
+  - id: recombination-qualification
+    kind: source
+    passage: "Their evidence for recombination is weaker under one of the structural measures than under semantic similarity [@liquin2025, Study 2 Discussion]."
+    evidence:
+      citation_id: "liquin2025"
+      locator: "Study 2 Discussion, first paragraph"
+      verified: true
+      verification_note: "Primary text reports no statistically significant recombination effect using grammar-based similarity, with more supportive semantic evidence. No null-is-equivalent inference is made."
+  - id: usefulness-rival
+    kind: source
+    passage: "Dubey and Griffiths develop a rational account based on the expected usefulness of knowledge [@dubey2020]."
+    evidence:
+      citation_id: "dubey2020"
+      locator: "Author accepted manuscript, pp. 2–4, Abstract and Introduction"
+      verified: true
+      verification_note: "Read primary manuscript. It presents a rational computational-level account; the manuscript treats usefulness as a serious alternative, not a strawman."
+  - id: reinforcement-rival
+    kind: source
+    passage: "Abir and colleagues find that satisfying answers are associated with increased subsequent seeking for semantically related information, and interpret the pattern in terms of a learned information-seeking policy."
+    evidence:
+      citation_id: "abir2026"
+      locator: "Abstract; Discussion, pp. 4–5; Methods, Stimuli and Task and Data Analysis"
+      verified: true
+      verification_note: "Read primary published PDF. The association and authors' reinforcement interpretation are distinguished; semantic relatedness limits generalization."
+  - id: satisfaction-measure
+    kind: source
+    passage: "In particular, answer satisfaction was not an independently randomized motivational variable that could settle the present identification problem."
+    evidence:
+      citation_id: "abir2026"
+      locator: "Methods, Stimuli and Task; Data Analysis"
+      verified: true
+      verification_note: "Participants rate whether an answer was worth waiting for after viewing it; satisfaction/expectation measures enter later analyses. Randomized question order and wait costs do not randomize satisfaction itself."
+  - id: elicitation-reactivity
+    kind: interpretation
+    passage: "The design therefore needs a no-elicitation condition rather than treating elicitation as a neutral measurement."
+    rationale: "Generating a list can itself activate candidates before free exploration. A parallel condition tests that possible measurement effect; it is not asserted as an observed effect in this task."
+  - id: menu-prediction
+    kind: interpretation
+    passage: "If the reusable explanation mainly helps people generate candidates, part of its advantage in selecting those investigations should diminish when candidates are supplied to everyone."
+    rationale: "Prospective conditional prediction. Shared comprehended candidates reduce a generation bottleneck; the adjacent paragraph states that menus also affect salience, effort, teaching and social expectations."
+  - id: menu-identification-limit
+    kind: interpretation
+    passage: "It would not, by itself, identify a unique psychological mediator."
+    rationale: "The common menu can change several variables at once. An interaction is compatible with candidate generation but does not uniquely isolate it."
+  - id: post-treatment-selection
+    kind: interpretation
+    passage: "If prior ability also affects both competence and exploration, selecting successful learners can make the treatment groups differ in prior ability despite random assignment."
+    rationale: "Explicit causal scenario: treatment and prior ability both influence a competence threshold; conditioning on threshold selection can associate treatment with prior ability, which also influences exploration. No claim that this bias must occur in every design."
+  - id: equivalence-standard
+    kind: interpretation
+    passage: "A nonsignificant rating difference would not suffice."
+    rationale: "Failure to reject a zero difference does not bound effects within a meaningful equivalence range. The preceding sentence requires prespecified bounds, precision and measurement sensitivity."
+  - id: prospective-status
+    kind: definition
+    passage: "None of these comparisons has been conducted for this paper; they specify what remains to be learned."
+    rationale: "Records that the proposed study is unexecuted and unpreregistered. No numerical estimates or human-participant results are offered."
+  - id: pattern-comparisons
+    kind: source
+    passage: "Structured patterns improve exploration over shuffled counterparts in their simple-mapping comparisons."
+    evidence:
+      citation_id: "ertle2025"
+      locator: "§V.A, Simple Mappings of Pattern to Robot Actions; Fig. 3; §VI"
+      verified: true
+      verification_note: "Read author-hosted conference paper and lab publication identity. Reported comparison is about task exploration under specified action mappings, not motivation arising de novo."
+  - id: pattern-noise-control
+    kind: source
+    passage: "In their learning-agent comparisons, replacing fractal input with noise does not significantly change certain reported effects [@ertle2025, §§V.A, V.C–D]."
+    evidence:
+      citation_id: "ertle2025"
+      locator: "§V.C and §V.D, uniform-noise substitution controls"
+      verified: true
+      verification_note: "Read reported controls. The manuscript explicitly avoids treating nonsignificance as equivalence or claiming that every architecture is fractal-independent."
+  - id: passive-compressor
+    kind: interpretation
+    passage: "Compression gains alone are therefore insufficient to explain active inquiry."
+    rationale: "Constructive counterexample: a compressor with an externally supplied stream and no action-selection mechanism can improve compression without choosing observations. An active mechanism or disposition is an additional premise."
+  - id: chemotaxis-boundary
+    kind: source
+    passage: "Mattingly and colleagues relate information acquired by the chemotaxis pathway of *Escherichia coli* to performance in climbing chemical gradients [@mattingly2021]."
+    evidence:
+      citation_id: "mattingly2021"
+      locator: "Published paper, p. 1426, Abstract and Introduction"
+      verified: true
+      verification_note: "Read the primary author-hosted published paper and checked publisher bibliographic identity. Evidence concerns signaling information and gradient-climbing performance, not phenomenal or noninstrumental curiosity."
+  - id: intrinsic-not-insulated
+    kind: interpretation
+    passage: "Calling a motive intrinsic distinguishes the value of learning from a separate reward; it does not make the motive causally insulated from encounters, language or other people."
+    rationale: "Conceptual distinction between the object of motivation and causes that elicit or modify it. The paper rejects the seed's stronger claim of causal insulation."
+  - id: pedagogy-evidence
+    kind: source
+    passage: "In Bonawitz and colleagues' toy experiments, children explored less broadly after certain pedagogical demonstrations than under comparison conditions."
+    evidence:
+      citation_id: "bonawitz2011"
+      locator: "pp. 322–323, Abstract and Introduction, pedagogical-inference model"
+      verified: true
+      verification_note: "Read primary author-hosted published PDF. The claim stays within the toy tasks and pedagogical conditions and does not generalize to schooling as a whole."
+  - id: educational-judgment
+    kind: normative
+    passage: "An institution interested in independent inquiry should therefore attend to what its lessons make askable and what their presentation implies has already been settled."
+    rationale: "Conditional on valuing independent inquiry, teaching should consider candidate availability and cues of completeness as well as answer mastery. This is an argued recommendation, not an experimentally established intervention effect."
+  - id: closure-legitimate
+    kind: normative
+    passage: "The argument supplies no warrant for endless questioning or for treating successful completion as intellectual failure."
+    rationale: "Finite resources, reliable procedures and practical completion remain legitimate educational and personal aims. The account distinguishes opportunity from an obligation to pursue every candidate."
+runs: []

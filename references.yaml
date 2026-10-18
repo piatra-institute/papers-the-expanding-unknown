@@ -1,0 +1,186 @@
+references:
+  - id: loewenstein1994
+    type: article-journal
+    title: 'The Psychology of Curiosity: A Review and Reinterpretation'
+    author:
+      - {family: Loewenstein, given: George}
+    issued: {date-parts: [[1994]]}
+    container-title: Psychological Bulletin
+    volume: '116'
+    issue: '1'
+    page: '75–98'
+    URL: https://www.cmu.edu/dietrich/sds/docs/loewenstein/PsychofCuriosity.pdf
+  - id: schmidhuber2010
+    type: article-journal
+    title: 'Formal Theory of Creativity, Fun, and Intrinsic Motivation (1990–2010)'
+    author:
+      - {family: Schmidhuber, given: Jürgen}
+    issued: {date-parts: [[2010]]}
+    container-title: IEEE Transactions on Autonomous Mental Development
+    volume: '2'
+    issue: '3'
+    page: '230–247'
+    URL: https://people.idsia.ch/~juergen/ieeecreative.pdf
+  - id: oudeyer2007
+    type: article-journal
+    title: Intrinsic Motivation Systems for Autonomous Mental Development
+    author:
+      - {family: Oudeyer, given: Pierre-Yves}
+      - {family: Kaplan, given: Frédéric}
+      - {family: Hafner, given: Verena V.}
+    issued: {date-parts: [[2007]]}
+    container-title: IEEE Transactions on Evolutionary Computation
+    volume: '11'
+    issue: '2'
+    page: '265–286'
+    DOI: 10.1109/TEVC.2006.890271
+  - id: dubey2020
+    type: article-journal
+    title: Reconciling Novelty and Complexity Through a Rational Analysis of Curiosity
+    author:
+      - {family: Dubey, given: Rachit}
+      - {family: Griffiths, given: Thomas L.}
+    issued: {date-parts: [[2020]]}
+    container-title: Psychological Review
+    volume: '127'
+    issue: '3'
+    page: '455–476'
+    DOI: 10.1037/rev0000175
+  - id: ten2021
+    type: article-journal
+    title: Humans Monitor Learning Progress in Curiosity-Driven Exploration
+    author:
+      - {family: Ten, given: Alexandr}
+      - {family: Kaushik, given: Pramod}
+      - {family: Oudeyer, given: Pierre-Yves}
+      - {family: Gottlieb, given: Jacqueline}
+    issued: {date-parts: [[2021]]}
+    container-title: Nature Communications
+    volume: '12'
+    page: '5972'
+    DOI: 10.1038/s41467-021-26196-w
+  - id: patankar2023
+    type: article-journal
+    title: Curiosity as Filling, Compressing, and Reconfiguring Knowledge Networks
+    author:
+      - {family: Patankar, given: Shubhankar P.}
+      - {family: Zhou, given: Dale}
+      - {family: Lynn, given: Christopher W.}
+      - {family: Kim, given: Jason Z.}
+      - {family: Ouellet, given: Mathieu}
+      - {family: Ju, given: Harang}
+      - {family: Zurn, given: Perry}
+      - {family: Lydon-Staley, given: David M.}
+      - {family: Bassett, given: Dani S.}
+    issued: {date-parts: [[2023]]}
+    container-title: Collective Intelligence
+    volume: '2'
+    issue: '4'
+    DOI: 10.1177/26339137231207633
+  - id: liquin2025
+    type: article-journal
+    title: 'Seeking New Information With Old Questions: Children and Adults Reuse and Recombine Concepts From Prior Questions'
+    author:
+      - {family: Liquin, given: Emily G.}
+      - {family: Rhodes, given: Marjorie}
+      - {family: Gureckis, given: Todd M.}
+    issued: {date-parts: [[2025]]}
+    container-title: Open Mind
+    volume: '9'
+    page: '885–925'
+    DOI: 10.1162/opmi.a.12
+  - id: liquin2026
+    type: article-journal
+    title: 'More Time and Effort, Same Curiosity: Expected Effort Does Not Impact Curiosity'
+    author:
+      - {family: Liquin, given: Emily G.}
+    issued: {date-parts: [[2026]]}
+    container-title: Open Mind
+    volume: '10'
+    page: '391–414'
+    DOI: 10.1162/OPMI.a.342
+  - id: abir2026
+    type: article-journal
+    title: Learning Reinforces Curiosity for Related Information
+    author:
+      - {family: Abir, given: Yaniv}
+      - {family: Mok, given: Jane}
+      - {family: Baldassano, given: Christopher A.}
+      - {family: Marvin, given: Caroline B.}
+      - {family: Shohamy, given: Daphna}
+    issued: {date-parts: [[2026]]}
+    container-title: Proceedings of the National Academy of Sciences
+    volume: '123'
+    issue: '17'
+    page: e2529176123
+    DOI: 10.1073/pnas.2529176123
+  - id: jach2024
+    type: article-journal
+    title: Individual Differences in Information Demand Have a Low Dimensional Structure Predicted by Some Curiosity Traits
+    author:
+      - {family: Jach, given: Hayley K.}
+      - {family: Cools, given: Roshan}
+      - {family: Frisvold, given: Alex}
+      - {family: Grubb, given: Michael A.}
+      - {family: Hartley, given: Catherine A.}
+      - {family: Hartmann, given: Jochen}
+      - {family: Hunter, given: Laura}
+      - {family: Jia, given: Ruonan}
+      - {family: de Lange, given: Floris P.}
+      - {family: Larisch, given: Ruby}
+      - {family: Lavelle-Hill, given: Rosa}
+      - {family: Levy, given: Ifat}
+      - {family: Li, given: Yutong}
+      - {family: van Lieshout, given: Lieke L. F.}
+      - {family: Nussenbaum, given: Kate}
+      - {family: Ravaioli, given: Silvio}
+      - {family: Wang, given: Siyu}
+      - {family: Wilson, given: Robert}
+      - {family: Woodford, given: Michael}
+      - {family: Murayama, given: Kou}
+      - {family: Gottlieb, given: Jacqueline}
+    issued: {date-parts: [[2024]]}
+    container-title: Proceedings of the National Academy of Sciences
+    volume: '121'
+    issue: '45'
+    page: e2415236121
+    DOI: 10.1073/pnas.2415236121
+  - id: ertle2025
+    type: paper-conference
+    title: 'Free Lunch? Low-Cost Intelligence Through Pattern-Guided Exploration'
+    author:
+      - {family: Ertle, given: Emily A.}
+      - {family: Levin, given: Michael}
+      - {family: Scheutz, given: Matthias}
+    issued: {date-parts: [[2025]]}
+    container-title: International Conference on Development and Learning
+    URL: https://hrilab.tufts.edu/publications/ertleetal25icdl.pdf
+  - id: mattingly2021
+    type: article-journal
+    title: Escherichia coli Chemotaxis Is Information Limited
+    author:
+      - {family: Mattingly, given: Henry H.}
+      - {family: Kamino, given: Keita}
+      - {family: Machta, given: Benjamin B.}
+      - {family: Emonet, given: Thierry}
+    issued: {date-parts: [[2021]]}
+    container-title: Nature Physics
+    volume: '17'
+    page: '1426–1431'
+    DOI: 10.1038/s41567-021-01380-3
+  - id: bonawitz2011
+    type: article-journal
+    title: 'The Double-Edged Sword of Pedagogy: Instruction Limits Spontaneous Exploration and Discovery'
+    author:
+      - {family: Bonawitz, given: Elizabeth}
+      - {family: Shafto, given: Patrick}
+      - {family: Gweon, given: Hyowon}
+      - {family: Goodman, given: Noah D.}
+      - {family: Spelke, given: Elizabeth}
+      - {family: Schulz, given: Laura}
+    issued: {date-parts: [[2011]]}
+    container-title: Cognition
+    volume: '120'
+    issue: '3'
+    page: '322–330'
+    DOI: 10.1016/j.cognition.2010.10.001

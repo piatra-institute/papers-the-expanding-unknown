@@ -1,0 +1,35 @@
+slug: the-expanding-unknown
+web_slug: the-expanding-unknown
+title: 'The Expanding Unknown: A Generative Account of Curiosity'
+header: THE EXPANDING UNKNOWN
+created: "2026-10"        # inception month (drives YYYY/MM archive path)
+date: October 2026
+paper_dir: paper
+has_simulation: false
+claims_target: claims.yaml    # schema-1 bound claims; see docs/verification.md
+repo: git@github.com:piatra-institute/papers-the-expanding-unknown.git
+github: https://github.com/piatra-institute/papers-the-expanding-unknown
+status: published
+genre: conceptual argument with a conditional model and prospective study design
+web_blurb: >-
+  An explanation can settle one question while making several others askable. This paper
+  distinguishes new opportunities for inquiry from stronger motivation and lower costs,
+  develops a conditional model, and proposes an experiment to tell those mechanisms apart.
+  No new behavioral results are claimed.
+abstract: >-
+  An explanation can settle a question while giving its recipient several new questions to ask.
+  Continued inquiry may then reflect a change in available opportunities rather than a stronger
+  desire for information. This paper develops that distinction through a conceptual synthesis
+  of research on information gaps, learning progress, question generation and information seeking.
+  Opportunity generation is defined relative to a learner's ability to formulate unresolved
+  contrasts and identify possible discriminating observations. A conditional branching model
+  shows how investigations can expand under a stationary pursuit rule, while making explicit
+  the assumptions that prevent this result from becoming a general law of curiosity. A prospective
+  experiment separates reusable explanations, supplied question menus and answer-access costs,
+  with predictions that could favor or weaken an opportunity-based account. Existing theories
+  already accommodate generative learning; the contribution is a clearer account of what must
+  be measured before increased exploration is attributed to increased motivation. No new behavioral
+  data or simulation results are reported. The argument also limits what can be inferred from
+  pattern-guided machines, bacterial information use and pedagogical demonstrations. For education,
+  it directs attention to the investigations a learner can formulate after an answer has been given,
+  alongside mastery of the answer itself.
